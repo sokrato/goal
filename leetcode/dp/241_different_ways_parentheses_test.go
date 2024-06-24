@@ -23,6 +23,7 @@ func splitExpr(expr string) (numbers []int, operators []rune) {
 
 // 241. Different Ways to Add Parentheses
 // https://leetcode.com/problems/different-ways-to-add-parentheses
+// TODO: 如何用迭代形式去实现？
 // func diffWaysToCompute(expression string) []int {
 // 	exprs := splitExpr(expression)
 // 	mem := map[string][]int{}
